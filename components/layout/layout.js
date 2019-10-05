@@ -79,7 +79,7 @@ class Layout extends React.Component {
 
   componentDidMount() {
     document.addEventListener('keydown', this.onKeyDown.bind(this), false)
-    document.addEventListener('keyUp', this.onKeyUp.bind(this), false)
+    document.addEventListener('keyup', this.onKeyUp.bind(this), false)
     window.addEventListener('scroll', this.onScroll.bind(this))
   }
 
