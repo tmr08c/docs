@@ -64,7 +64,6 @@ class Layout extends React.Component {
     if (event.which === 18) {
       this.altKeyDown = false
     }
-    this.altKeyDown = false
   }
 
   onScroll() {
